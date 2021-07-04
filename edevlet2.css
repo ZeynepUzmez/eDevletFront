@@ -1,0 +1,304 @@
+body{
+    background-color: #9FC5DA;
+}
+#container{
+    display: flexbox;
+    width: 60%;
+    height: 60%;
+    position: center;
+    background-color:white;
+    position: relative;
+    margin-left: 20%;
+    transition: 0.25s;
+    margin-top: 12%;
+    border-radius: 10px;
+    height: 580px;
+}
+
+#container #usttekiedevlet{
+    margin-top: 2%;
+}
+#container div #table1{
+    display: inline-block;
+}
+
+#containerdiv #table1 .td1{
+    text-align: left;
+    padding-left: 35px;
+    font-family: sans-serif;
+    font-size: 10px;
+    color: #545657;
+}
+#container div #table1 .td2{
+    text-align: left;
+    font-weight:bold;
+    font-family: sans-serif;
+    padding-left: 10%;
+    font-size: 13px;
+    color: #5F8BB4;
+    width: 200px;
+}
+#container div #govtr{
+    padding-left: 39%;
+}
+#container #icerik{
+    margin: 2%;
+    border: 1px solid rgb(216,231,240);
+    border-radius:3px;
+}
+
+#container #icerik #Giris-sec{
+    display: flex;
+}
+#container #icerik #Giris-sec .navbar{
+    margin-left: 1%;
+    padding-right: 5%;
+    height: 48px;
+    border-right: 1px solid  rgb(216,231,240);
+    cursor:pointer ;
+}
+
+#container #icerik #Giris-sec .navbar .ikonlar{
+    margin-bottom: -2%;
+    cursor:pointer ;
+}
+#container  #icerik #Giris-sec .navbar .btn1{
+    background-color: rgba(173, 216, 230, 0);
+    border: 0;
+    cursor:pointer ;
+    margin: 15px 0px;
+    
+}
+#container #icerik #Giris-sec .nav-item-last{
+    margin-top: 0.5%;
+    cursor:pointer ;
+    margin-left: 1%;
+}
+#container #icerik #Giris-sec .navbar :last-child {
+    background-color: rgba(173, 216, 230, 0);
+    border: 0;
+    cursor:pointer ;
+    margin: 15px 0px;
+}
+#container #icerik p{
+    margin-top: -0.5%;
+    padding-left: 15px;
+    margin-bottom: -0.1%;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #4A4E50;
+}
+#container #icerik a{
+    font-family: sans-serif;
+    font-size: 13px;
+    color: #5F8BB4;
+    text-decoration: none;
+}
+.hr2{
+    width: 95%;
+    margin-top: 2%;
+    opacity: 0.1;
+}
+#iconKitap{
+    padding-left: 15px;
+    margin-bottom: -0.5%;
+}
+.td3{
+    font-family: sans-serif;
+    padding-left: 15px;
+    font-size: 14px;
+    color: #4A4E50;
+    width: 33%;
+}
+.td4 {
+    width: 270px;
+}
+.td4 input{
+    border: 1px solid rgba(0, 0, 0, 0.466);
+    border-radius: 3px;
+    height: 27px;
+    width: 250px;
+    margin-right: 50%;
+
+}
+.td5{
+    width: 120px;
+    cursor:pointer ;
+}
+.td6{
+    cursor:pointer ;
+}
+.td7{
+    width: 31.5%;
+}
+.td8{
+    padding-left: 20px;
+    font-size: 12px;
+    font-family: sans-serif;
+    color: #4A4E50;
+}
+.td9{
+    width: 26%;
+}
+.Aciklama{
+    background-color: #F7FAFC;
+    border-style: dashed;
+    border-width: 1px;
+    border-color: solid rgba(0, 0, 0, 0.479);
+    border-radius: 20px;
+    margin: 3%;
+}
+.Aciklama ul li {
+    padding-right: 3%;
+    padding-left: 3%;
+    padding-top: 1%;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #4A4E50;
+}
+.Aciklama ul a {
+    font-family: sans-serif;
+    color: #0051ff;
+    font-size: 15px;
+}
+#container #icerik #e-devletSifresi {
+    display: "";
+}
+#container #icerik #e-devletSifresi #hr1{
+    margin-top: -0.4%;
+    float: right;
+    width: 79.8%;
+    opacity: 0.5;
+}
+#container #icerik #mobilImza{
+    display: none;
+}
+
+#container #icerik #mobilImza #hr1{
+    margin-top: -0.4%;
+    float: left;
+    width: 20%;
+    opacity: 0.5; 
+}
+#container #icerik #mobilImza #hr1-2{
+    margin-top: -0.4%;
+    float: right;
+    width: 62.1%;
+    opacity: 0.5; 
+}
+#container #icerik #mobilImza table tr .td6{
+    padding-left: 3px;
+    margin-top: 20px;
+    width: 400px;
+    display: flex;
+}
+#container #icerik #mobilImza .td6 .radio{
+    border: 1px solid rgba(0, 0, 0, 0.336);
+    margin-right: 2%;
+    height: 24px;
+    padding-top: 6px;
+    padding-right: 6px;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+#container #icerik #e-imza{
+    display: none;
+}
+#container #icerik #e-imza #hr1{
+    margin-top: -0.4%;
+    float: left;
+    width: 37.5%;
+    opacity: 0.5; 
+}
+#container  #e-imza #hr1-2{
+    margin-top: -0.4%;
+    float: right;
+    width: 46.5%;
+    opacity: 0.5; 
+}
+
+#container #icerik #e-imza .Aciklama ul #dikkat {
+    color: red;
+}
+#container #icerik #kimlikKart{
+    display: none;
+}
+#container #icerik #kimlikKart #hr1{
+    margin-top: -0.4%;
+    float: left;
+    width: 53%;
+    opacity: 0.5; 
+}
+#container #icerik #kimlikKart #hr1-2{
+    margin-top: -0.4%;
+    float: right;
+    width: 23.5%;
+    opacity: 0.5; 
+}
+#container #icerik #internetBanka{
+    display: none;
+}
+#container #icerik #internetBanka #hr1{
+    margin-top: -0.4%;
+    float: left;
+    width: 76%;
+    opacity: 0.5; 
+}
+#container #icerik #butonlar{
+    display: flex;
+    margin-left: 35%;
+    padding-bottom: 2%;
+}
+#container #icerik #butonlar #iptal{
+    background-color: #F6F6F6 ;
+    color: rgba(74,78,80,.9);
+    border-radius: 45px;
+    font-weight: 400;
+    width: 100px;
+    height: 37px;
+    font-size: 15px;
+    border: 1px rgba(52,122,161,.3) solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:2%;
+}
+#container #icerik #butonlar #girisYap{
+    margin:2%;
+    background-color: #347AA1;
+    color: white;
+    border-radius: 45px;
+    font-weight: 400;
+    width: 110px;
+    height: 37px;
+    font-size: 15px;
+    border: 1px rgba(52,122,161,.3) solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#container #alt #solaYasla{
+    font-size: 12px;
+    font-family: sans-serif;
+    color: #4a4e509f;
+    float: left;
+}
+
+#container #alt a{
+    float: right;
+    margin-right: 2%;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 13px;
+    color: #5F8BB4;
+}
+.banklist {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 3%;
+    padding-right: 3%;
+    justify-content: center;
+}
